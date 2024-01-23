@@ -1,11 +1,18 @@
 import React from "react";
 import Header from "./Header";
 import "../css/homeCSS.css"
+import logo from "../images/LogoBerti-Transp.jpg"
+import MenuHamburguesa from "../components/BurguerMenu"
 
 function Home() {
     return (
         <div>
+            <a href="/" className="containerLogoHome">
+                <img src={logo} alt="" className="logoHome"></img>
+            </a>
             <Header />
+            <MenuHamburguesa />
+
             <h3>Hola soy el Home</h3>
             <h1>La Red</h1>
             <h1>De Distribución</h1>
@@ -40,8 +47,10 @@ We have a wide experience in overland industry specific logistic solutions like 
                             <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, distinctio beatae, accusantium cumque animi at alias deserunt voluptatum, asperiores quisquam dolorum voluptates reiciendis cum aspernatur ex odio officia non maiores.</p>
                         </div>
                     </div>
+                    <div className="containerButtonHome">
+                        <button className="buttonHome">VER DETALLES</button>
+                    </div>
                 </div>
-                <button>Ver Detalles</button>
             </div>
         </div>
     );

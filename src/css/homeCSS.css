@@ -1,6 +1,8 @@
 /* homeCSS.css */
-body{
-    margin:0
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 @media (min-width: 320px) {
     .containerMiniImagesHome {
@@ -53,7 +55,32 @@ body{
     .detailsContainer{
         background-image: url("../images/PhotoReal_Imagina_un_fondo_cautivador_donde_el_azul_oscuro_pre_0.jpg");
         margin: 0;
-        padding-top: 20px;
+        /* padding-top: 20px; */
+        padding: 20px 0 20px 0;
+    }
+    .logoHome{
+      display: flex;
+      width: auto;
+      height: 75px;
+    }
+    .containerLogoHome{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .containerButtonHome{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .buttonHome{
+      height: 45px;
+      width: 200px;
+      font-weight: 700;
+      border: none;
+      border-radius: 25px;
+      background-color: #fac312 ;
+      color: white;
     }
   }
   
