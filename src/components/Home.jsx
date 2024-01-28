@@ -1,19 +1,17 @@
 import React from "react";
-import Header from "./Header";
 import "../css/homeCSS.css"
 import logo from "../images/LogoBerti-Transp.jpg"
-import MenuHamburguesa from "../components/BurguerMenu"
+// import MenuHamburguesa from "../components/BurguerMenu"
+import NavBar from "./NavBar/NavBar";
 
 function Home() {
     return (
         <div>
+            <NavBar/>
             <a href="/" className="containerLogoHome">
                 <img src={logo} alt="" className="logoHome"></img>
             </a>
-            <Header />
-            <MenuHamburguesa />
-
-            <h3>Hola soy el Home</h3>
+            {/* <MenuHamburguesa /> */}
             <h1>La Red</h1>
             <h1>De Distribución</h1>
             <h1>Más Fuerte</h1>
