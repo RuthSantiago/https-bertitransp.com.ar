@@ -12,12 +12,37 @@
     /* color: white; */
     width: 175px;
 }
-.nav_items a{
-    margin: 15px;
+.logoHome {
+    display: flex;
+    width: auto;
+    height: 75px;
+    margin: 15px 0 15px;
+  }
+  
+  .containerLogoHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    background: linear-gradient(to bottom, #5E8C61, #ffffff); 
+  
+  }
+/* Añade estas reglas de estilo para los hipervínculos en el estado normal */
+/* Estilo inicial para los hipervínculos */
+.nav_items a {
+    padding: 15px;
     color: white;
     position: relative;
     text-decoration: none;
+    transition: background-color 0.3s ease; /* Transición para suavizar el cambio de fondo */
 }
+
+/* Cambio de fondo al pasar el mouse */
+.nav_items a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Cambia el fondo según tus preferencias, en este caso, un color blanco transparente */
+}
+
+
 .nav_toggle{
     display: none;
 }
@@ -38,9 +63,11 @@
         transform: translateX(-100%);     
         transition: 0.3s ease all;
     }
+    
     .nav_items.open{
         transform: translateX(0) !important
     }
+    
     .nav_toggle{
         display: flex !important;
         flex-direction: column;                
