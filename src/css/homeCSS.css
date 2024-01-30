@@ -1,7 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.firstDiv {
+  margin-bottom: 70px;
 }
 .headImg {
   display: flex;
@@ -14,175 +17,269 @@
 }
 
 .headImg h1 {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #ffffff;
   position: absolute;
   z-index: 0.5;
 }
 
 .headImg h1:nth-child(2) {
-  top: 10px; 
+  top: 10px;
   width: 100%;
 }
 
 .headImg h1:nth-child(3) {
-  top: 50px; 
+  top: 50px;
 }
 
 .headImg h1:nth-child(4) {
-  top: 90px; 
+  top: 90px;
 }
 
-.backgroundimg{
+.backgroundimg {
   background-image: url("../images/PhotoReal_Imagina_un_fondo_cautivador_donde_el_azul_oscuro_pre_0.jpg");
 }
 
-
-.containerButtonHome{
+.containerButtonHome {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.buttonHome{
+.buttonHome {
   height: 45px;
   width: 200px;
   font-weight: 700;
   border: none;
   border-radius: 25px;
-  background-color: #fac312 ;
+  background-color: #fac312;
   color: white;
   margin-bottom: 25px;
   cursor: pointer;
 }
-
-@media (min-width: 769px){
-.detailsContainer{
-  margin: 0;
-  height: auto;
-  padding: 20px 0 20px 0;
-  display: flex;
-  flex-direction: row;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", "Open Sans", Arial, sans-serif;
+  font-weight: 800;
+  margin-bottom: 25px;
+  margin-top: 0;
+  color: #333;
 }
-.containerMiniImagesHome {
-  width: 100%;
-  margin: 30px 0 30px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.miniImagesHome {
-  height: 60%;
-  width: 90%;
-  display: flex;
+p,
+a,
+span {
+  color: #777;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 22px;
 }
 
-.texto {
-  background-color: #fff;
-  width: 90%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-.texto h2 {
+@media (min-width: 769px) {
+  .detailsContainer {
+    margin: 0;
+    height: auto;
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .containerMiniImagesHome {
+    width: 100%;
+    margin: 30px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .miniImagesHome {
+    height: 60%;
+    width: 90%;
+    display: flex;
+  }
+
+  .texto {
+    background-color: #fff;
+    width: 90%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .texto h2 {
     display: flex;
     margin: 10px 0 10px 0;
     padding: 8px 20px 0 20px;
     position: relative;
   }
-  
+
   .texto h2::before {
     content: "";
     position: absolute;
     top: 0;
     left: 3;
     width: 10%;
-    height: 3px; 
+    height: 3px;
     background-color: #fac312;
   }
-  
-.texto p{
+
+  .texto p {
     padding: 0 20px 0 20px;
     margin-top: 0;
     padding-bottom: 15px;
     color: #777778;
     margin-bottom: 15px;
-}
-
-
-
-}
-@media (min-width: 320px ) and (max-width: 768px) {
-
-  
-  
-    .containerMiniImagesHome {
-      height: 376px;
-      width: 100%;
-      /* padding-right: 30px; */
-      /* background-color: brown; */
-      margin: 30px 0 30px 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .miniImagesHome {
-      height: 60%;
-      width: 90%;
-      display: flex;
-      padding-top: 20px;
-    }
-  
-    .texto {
-      background-color: #fff;
-      width: 90%;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-    }
-    .texto h2 {
-        display: flex;
-        margin: 10px 0 10px 0;
-        padding: 8px 20px 0 20px;
-        position: relative; /* Se añade posición relativa para que el pseudo-elemento se posicione correctamente */
-      }
-      
-      .texto h2::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 3;
-        width: 10%; /* Ajusta el ancho del borde superior amarillo según tus necesidades */
-        height: 3px; /* Grosor del borde amarillo */
-        background-color: #fac312;
-      }
-      
-    .texto p{
-        padding: 0 20px 0 20px;
-        margin-top: 0;
-        padding-bottom: 15px;
-        color: #777778;
-        margin-bottom: 15px;
-    }
-    .detailsContainer{
-        background-image: url("../images/PhotoReal_Imagina_un_fondo_cautivador_donde_el_azul_oscuro_pre_0.jpg");
-        margin: 0;
-        /* padding-top: 20px; */
-        padding: 20px 0 20px 0;
-    }
-    .logoHome{
-      display: flex;
-      width: auto;
-      height: 75px;
-    }
-    .containerLogoHome{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    
   }
-  
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .whatWeOffer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .whatWeOffer ul {
+    display: flex;
+    /* margin: 0 3% 0 3%; */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .whatWeOffer li {
+    background-color: #f5f3f3;
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    padding: 30px 40px;
+  }
+  .customHeading {
+    margin: 0;
+  }
+  .customP {
+    padding-bottom: 15px;
+  }
+  .textoServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .textoServices p {
+    padding: 15px;
+  }
+  .textoServices h3 {
+    margin-bottom: 15px;
+  }
+  .svg {
+    width: 17.5%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .whatWeOffer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .whatWeOffer ul {
+    display: flex;
+    margin: 0 10% 0 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .whatWeOffer li {
+    background-color: #f0f0f0;
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 30px 40px;
+  }
+  .customHeading {
+    margin: 0;
+  }
+  .customP {
+    padding-bottom: 15px;
+  }
+  .textoServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .svg {
+    width: 17.5%;
+  }
+  .containerMiniImagesHome {
+    height: 376px;
+    width: 100%;
+    margin: 30px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .miniImagesHome {
+    height: 60%;
+    width: 90%;
+    display: flex;
+    padding-top: 20px;
+  }
+
+  .texto {
+    background-color: #fff;
+    width: 90%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .texto h2 {
+    display: flex;
+    margin: 10px 0 10px 0;
+    padding: 8px 20px 0 20px;
+    position: relative; /* Se añade posición relativa para que el pseudo-elemento se posicione correctamente */
+  }
+
+  .texto h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 3;
+    width: 10%; /* Ajusta el ancho del borde superior amarillo según tus necesidades */
+    height: 3px; /* Grosor del borde amarillo */
+    background-color: #fac312;
+  }
+
+  .texto p {
+    padding: 0 20px 0 20px;
+    margin-top: 0;
+    padding-bottom: 15px;
+    color: #777778;
+    margin-bottom: 15px;
+  }
+  .detailsContainer {
+    background-image: url("../images/PhotoReal_Imagina_un_fondo_cautivador_donde_el_azul_oscuro_pre_0.jpg");
+    margin: 0;
+    /* padding-top: 20px; */
+    padding: 20px 0 20px 0;
+  }
+  .logoHome {
+    display: flex;
+    width: auto;
+    height: 75px;
+  }
+  .containerLogoHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,11 +1,13 @@
 import React from "react";
+import NavBar from "./NavBar/NavBar";
 
-function Contacto(){
-    return(
+function Contacto() {
+  return (
     <div>
-        <h3>Hola soy el Contacto</h3>
+      <NavBar />
+      <h3>Hola soy el Contacto</h3>
     </div>
-    );
+  );
 }
 
-export default Contacto
+export default Contacto;

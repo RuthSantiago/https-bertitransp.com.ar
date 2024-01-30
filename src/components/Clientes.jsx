@@ -1,12 +1,13 @@
 import React from "react";
+import NavBar from "./NavBar/NavBar";
 
-
-function Clientes(){
-    return(
+function Clientes() {
+  return (
     <div>
-        <h3>Hola soy el Clientes</h3>
+      <NavBar />
+      <h3>Hola soy el Clientes</h3>
     </div>
-    );
+  );
 }
 
-export default Clientes
+export default Clientes;

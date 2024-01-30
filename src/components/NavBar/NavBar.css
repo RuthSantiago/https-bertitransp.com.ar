@@ -1,94 +1,97 @@
-.NavBar{
-    background: #5E8C61;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.NavBar {
+  background: #5e8c61;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.nav_logo{
-    font-weight:bold ;
-    font-size: 20px;
-    margin: 15px;
-    /* color: white; */
-    width: 175px;
+.nav_logo {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 15px;
+  /* color: white; */
+  width: 175px;
 }
 .logoHome {
-    display: flex;
-    width: auto;
-    height: 75px;
-    margin: 15px 0 15px;
-  }
-  
-  .containerLogoHome{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    background: linear-gradient(to bottom, #5E8C61, #ffffff); 
-  
-  }
+  display: flex;
+  width: auto;
+  height: 75px;
+  margin: 15px 0 15px;
+}
+.containerLogoHome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  background: linear-gradient(to bottom, #5e8c61, #ffffff);
+}
 /* Añade estas reglas de estilo para los hipervínculos en el estado normal */
 /* Estilo inicial para los hipervínculos */
 .nav_items a {
-    padding: 15px;
-    color: white;
-    position: relative;
-    text-decoration: none;
-    transition: background-color 0.3s ease; /* Transición para suavizar el cambio de fondo */
+  padding: 15px;
+  font-family: "Raleway", "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: white;
+  position: relative;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
-/* Cambio de fondo al pasar el mouse */
 .nav_items a:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Cambia el fondo según tus preferencias, en este caso, un color blanco transparente */
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-
-.nav_toggle{
-    display: none;
+.nav_toggle {
+  display: none;
 }
-/* .NavBarLogo{
-    width: 100px
-} */
+
+@media (min-width: 769px) {
+  .nav_items a.active,
+  .nav_items a:hover {
+    border-bottom: 3px solid white;
+  }
+}
 @media (max-width: 768px) {
-    .nav_items{
-        position: absolute;
-        top: 59px;
-        left: 0;
-        background: #236229;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        z-index: 1;  
-        transform: translateX(-100%);     
-        transition: 0.3s ease all;
-    }
-    
-    .nav_items.open{
-        transform: translateX(0) !important
-    }
-    
-    .nav_toggle{
-        display: flex !important;
-        flex-direction: column;                
-        margin: 15px;
-    }
-    .nav_toggle span{
-        width: 30px;
-        height: 4px;
-        background: white;
-        margin-bottom: 5px;
-        border-radius: 2px;             
-        transform-origin: 5px 0px;
-        transition: all 0.2s linear;
-    }
-    .nav_toggle.open > span{
-        transform: rotate(45deg) translate(0px, 0px);
-    }
-    .nav_toggle.open > span:nth-child(2){
-        display: none;
-    }
-    .nav_toggle.open > span:nth-child(3){
-        transform: rotate(-45deg) translate(-5px, 1px);
-    }
+  .nav_items {
+    position: absolute;
+    top: 59px;
+    left: 0;
+    background: #236229;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    transform: translateX(-100%);
+    transition: 0.3s ease all;
+  }
+
+  .nav_items.open {
+    transform: translateX(0) !important;
+  }
+
+  .nav_toggle {
+    display: flex !important;
+    flex-direction: column;
+    margin: 15px;
+  }
+  .nav_toggle span {
+    width: 30px;
+    height: 4px;
+    background: white;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transform-origin: 5px 0px;
+    transition: all 0.2s linear;
+  }
+  .nav_toggle.open > span {
+    transform: rotate(45deg) translate(0px, 0px);
+  }
+  .nav_toggle.open > span:nth-child(2) {
+    display: none;
+  }
+  .nav_toggle.open > span:nth-child(3) {
+    transform: rotate(-45deg) translate(-5px, 1px);
+  }
 }
