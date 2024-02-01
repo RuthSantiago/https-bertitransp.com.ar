@@ -6,6 +6,7 @@ import logo from "../images/LogoBerti-Transp-PhotoRoom.png-PhotoRoom.png";
 import head from "../images/slide04.jpg";
 // import MenuHamburguesa from "../components/BurguerMenu"
 import NavBar from "./NavBar/NavBar";
+import Footer from "./Footer/Footer";
 
 function Home() {
   return (
@@ -199,6 +200,7 @@ function Home() {
           </li>
         </ul>
       </div>
+      <Footer/>
     </div>
   );
 }

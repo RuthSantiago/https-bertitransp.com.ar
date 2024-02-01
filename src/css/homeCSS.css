@@ -132,7 +132,7 @@ span {
     margin-bottom: 15px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px)  {
   .whatWeOffer {
     display: flex;
     width: 100%;
