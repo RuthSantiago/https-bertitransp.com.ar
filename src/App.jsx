@@ -1,9 +1,10 @@
 import "./App.css";
-import Home from "./components/Home";
-import Clientes from "./components/Clientes";
-import Contacto from "./components/Contacto";
-import Empresa from "./components/Empresa";
-import Flota from "./components/Flota";
+// import Home from "./components/Home";
+import Home from "./components/Home/Home";
+import Clientes from "./components/Clientes/Clientes";
+import Contacto from "./components/Contacto/Contacto";
+import Empresa from "./components/Empresa/Empresa";
+import Flota from "./components/Flota/Flota";
 
 import { Link, Route, Routes } from "react-router-dom";
 

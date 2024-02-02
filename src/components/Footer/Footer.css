@@ -1,11 +1,72 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .containerFooter{
-    display: flex;
-    background-color: #25272e;
-  }
-  
+.containerFooter {
+  display: flex;
+  background-color: #25272e;
+  flex-direction: column;
+}
+.headerFromFooter {
+  display: flex;
+  flex-direction: column;
+}
+.containerMainLogoFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.logoFooter {
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 15px;
+  /* color: white; */
+  width: 175px;
+}
+.contactUsContainerFooter {
+  display: flex;
+  justify-content: center;
+}
+.contactUsFooter {
+  color: white;
+  margin: 0;
+}
+.containerLogoFooter {
+  display: flex;
+  justify-content: space-around;
+}
+.containerLogoFooter img {
+  display: flex;
+  width: 50px;
+  margin: 10px;
+}
+.adressFooter {
+  display: flex;
+  padding: 10px 0 5px 15px;
+}
+.footerFromFooter {
+  display: flex;
+  background-color: #043a07;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 5px 20% 5px 20%;
+  flex-wrap: wrap;
+}
+.footerFromFooter a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: font-size 0.3s ease-in-out;
+}
+.barrita {
+  padding-top: 8px;
+}
+.footerFromFooter a:hover {
+  font-size: 1rem;
+}
