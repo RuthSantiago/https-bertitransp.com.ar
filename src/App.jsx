@@ -5,6 +5,7 @@ import Clientes from "./components/Clientes/Clientes";
 import Contacto from "./components/Contacto/Contacto";
 import Empresa from "./components/Empresa/Empresa";
 import Flota from "./components/Flota/Flota";
+import Error404NotFound from "./components/Error404NotFound/Error404NotFound";
 
 import { Link, Route, Routes } from "react-router-dom";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Contacto" element={<Contacto />} />
         <Route path="/Empresa" element={<Empresa />} />
         <Route path="/Flota" element={<Flota />} />
+        <Route path="*" element={<Error404NotFound />} />
       </Routes>
     </div>
   );

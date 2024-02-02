@@ -24,57 +24,69 @@ function Flota() {
         <div className="containerFlotas">
           <div className="flotas">
             <div className="containerTituloFlota">
-              <h3 className="tituloFlota">TEXTO DE FLOTA</h3>
+              <h3 className="tituloFlota">CHASIS</h3>
             </div>
-            <img
-              src="http://pixel-industry.com/html/trucking/img/pics/img01.jpg"
-              alt=""
-            />
+            <a href="/Flota/Chasis" className="hiperImg">
+              <img
+                src="http://pixel-industry.com/html/trucking/img/pics/img01.jpg"
+                alt=""
+              />
+            </a>
           </div>
           <div className="flotas">
             <div className="containerTituloFlota">
-              <h3 className="tituloFlota">TEXTO DE FLOTA</h3>
+              <h3 className="tituloFlota">SEMIRREMOLQUE DE FLOTA</h3>
             </div>
-            <img
-              src="http://pixel-industry.com/html/trucking/img/slider/slide01.jpg"
-              alt=""
-            />
+            <a href="/Flota/Semirremolque_de_flota" className="hiperImg">
+              <img
+                src="http://pixel-industry.com/html/trucking/img/slider/slide01.jpg"
+                alt=""
+              />
+            </a>
           </div>
           <div className="flotas">
             <div className="containerTituloFlota">
-              <h3 className="tituloFlota">TEXTO DE FLOTA</h3>
+              <h3 className="tituloFlota">SEMIRREMOLQUE CON BARANDA</h3>
             </div>
-            <img
-              src="http://pixel-industry.com/html/trucking/img/slider/slide03.jpg"
-              alt=""
-            />
+            <a href="/Flota/Semirremolque_con_baranda" className="hiperImg">
+              <img
+                src="http://pixel-industry.com/html/trucking/img/slider/slide03.jpg"
+                alt=""
+              />
+            </a>
           </div>
           <div className="flotas">
             <div className="containerTituloFlota">
-              <h3 className="tituloFlota">TEXTO DE FLOTA</h3>
+              <h3 className="tituloFlota">ARAÑAS PORTACONTENEDORES</h3>
             </div>
-            <img
-              src="http://pixel-industry.com/html/trucking/img/pics/img01.jpg"
-              alt=""
-            />
+            <a href="/Flota/Arañas_portacontenedores" className="hiperImg">
+              <img
+                src="http://pixel-industry.com/html/trucking/img/pics/img01.jpg"
+                alt=""
+              />
+            </a>
           </div>
           <div className="flotas">
             <div className="containerTituloFlota">
-              <h3 className="tituloFlota">TEXTO DE FLOTA</h3>
+              <h3 className="tituloFlota">CARRETONES ESPECIALES</h3>
             </div>
-            <img
-              src="http://pixel-industry.com/html/trucking/img/slider/slide01.jpg"
-              alt=""
-            />
+            <a href="/Flota/Carretones_especiales" className="hiperImg">
+              <img
+                src="http://pixel-industry.com/html/trucking/img/slider/slide01.jpg"
+                alt=""
+              />
+            </a>
           </div>
           <div className="flotas">
             <div className="containerTituloFlota">
-              <h3 className="tituloFlota">TEXTO DE FLOTA</h3>
+              <h3 className="tituloFlota">TRANSPORTE DE AUTOMOVILES</h3>
             </div>
-            <img
-              src="http://pixel-industry.com/html/trucking/img/slider/slide03.jpg"
-              alt=""
-            />
+            <a href="/Flota/Transporte_de_automoviles" className="hiperImg">
+              <img
+                src="http://pixel-industry.com/html/trucking/img/slider/slide03.jpg"
+                alt=""
+              />
+            </a>
           </div>
         </div>
       </div>

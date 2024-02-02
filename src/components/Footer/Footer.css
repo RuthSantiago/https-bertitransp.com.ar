@@ -66,6 +66,7 @@
 }
 .barrita {
   padding-top: 8px;
+  cursor: default;
 }
 .footerFromFooter a:hover {
   font-size: 1rem;
