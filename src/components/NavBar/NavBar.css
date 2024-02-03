@@ -1,5 +1,5 @@
 .NavBar {
-  background: #5e8c61;
+  background: #043a07;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -14,8 +14,8 @@
 }
 .logoHome {
   display: flex;
-  width: auto;
-  height: 75px;
+  width: 50%;
+  height: 50%;
   margin: 15px 0 15px;
 }
 .containerLogoHome {
@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
-  background: linear-gradient(to bottom, #5e8c61, #ffffff);
+  background: linear-gradient(to bottom, #043a07, #ffffff);
 }
 /* Añade estas reglas de estilo para los hipervínculos en el estado normal */
 /* Estilo inicial para los hipervínculos */

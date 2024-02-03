@@ -8,15 +8,34 @@
 }
 .headImg {
   display: flex;
-  position: relative;
   flex-direction: column;
 }
 
 .headImg img {
-  width: 100%; /* Asegura que la imagen ocupe todo el ancho de su contenedor */
+  width: 100%;
 }
-
-.headImg h1 {
+.headImagePhrase {
+  position: absolute;
+  width: 100%;
+  padding: 10% 10% 10% 0;
+  /* font-size: 150%; */
+}
+.headImagePhrase h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #ffffff;
+  font-size: 300%;
+}
+.headImagePhrase h1:nth-child(1) {
+  padding-left: 5%;
+}
+.headImagePhrase h1:nth-child(2) {
+  padding-left: 10%;
+}
+.headImagePhrase h1:nth-child(3) {
+  padding-left: 15%;
+}
+/* .headImg h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #ffffff;
@@ -35,10 +54,10 @@
 
 .headImg h1:nth-child(4) {
   top: 90px;
-}
+} */
 
 .backgroundimg {
-  background-image: url("../images/PhotoReal_Imagina_un_fondo_cautivador_donde_el_azul_oscuro_pre_0.jpg");
+  background-image: url("../../images/PhotoReal_Imagina_un_fondo_cautivador_donde_el_azul_oscuro_pre_0.jpg");
 }
 
 .containerButtonHome {
@@ -131,8 +150,7 @@ span {
     color: #777778;
     margin-bottom: 15px;
   }
-}
-@media (min-width: 769px)  {
+
   .whatWeOffer {
     display: flex;
     width: 100%;
@@ -152,7 +170,7 @@ span {
     flex-direction: column;
     align-items: center;
     width: 45%;
-    height: 100%;
+    /* height: 100%; */
     padding: 30px 40px;
   }
   .customHeading {
@@ -267,7 +285,7 @@ span {
     margin-bottom: 15px;
   }
   .detailsContainer {
-    background-image: url("../images/PhotoReal_Imagina_un_fondo_cautivador_donde_el_azul_oscuro_pre_0.jpg");
+    background-image: url("../../images/PhotoReal_Imagina_un_fondo_cautivador_donde_el_azul_oscuro_pre_0.jpg");
     margin: 0;
     /* padding-top: 20px; */
     padding: 20px 0 20px 0;
@@ -281,5 +299,23 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .headImagePhrase h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    color: #ffffff;
+    font-size: 200%;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .headImagePhrase h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    color: #ffffff;
+    font-size: 150%;
+    margin-bottom: 0;
   }
 }
