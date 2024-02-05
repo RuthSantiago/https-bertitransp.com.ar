@@ -22,7 +22,7 @@ const Footer = () => {
             <a href="/contacto">
               <img src={gmail} alt="" />
             </a>
-            <a href="https://wa.me/ 541123329204">
+            <a href="https://wa.me/541123329204">
               <img src={whatsapp} alt="" />
             </a>
             <a href="https://www.instagram.com/bertitransp?igsh=MWozNjJwcGtwNTUxZw==">
