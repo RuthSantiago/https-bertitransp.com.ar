@@ -27,7 +27,7 @@ function Home() {
             <div className="containerMiniImagesHome">
               <img
                 className="miniImagesHome"
-                src="http://pixel-industry.com/html/trucking/img/slider/slide03.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/1/11/Freightliner_M2_106_6x4_2014_%2814240376744%29.jpg"
                 alt=""
               />
 
@@ -44,7 +44,7 @@ function Home() {
             <div className="containerMiniImagesHome">
               <img
                 className="miniImagesHome"
-                src="http://pixel-industry.com/html/trucking/img/pics/img01.jpg"
+                src="https://media.newyorker.com/photos/61a5800b07516aaf7967f1ee/master/pass/Monroe-OldTrucksNewMoney.jpg"
                 alt=""
               />
               <div className="texto">
@@ -60,7 +60,7 @@ function Home() {
             <div className="containerMiniImagesHome">
               <img
                 className="miniImagesHome"
-                src="http://pixel-industry.com/html/trucking/img/slider/slide01.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/1/11/Freightliner_M2_106_6x4_2014_%2814240376744%29.jpg"
                 alt=""
               />
               <div className="texto">
@@ -75,7 +75,7 @@ function Home() {
             </div>
           </div>
           <div className="containerButtonHome">
-            <Link to="/flota">
+            <Link to="/Flota">
               <button className="buttonHome">VER DETALLES</button>
             </Link>
           </div>

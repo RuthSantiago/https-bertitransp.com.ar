@@ -28,7 +28,7 @@ function Flota() {
             </div>
             <a href="/Flota/Chasis" className="hiperImg">
               <img
-                src="http://pixel-industry.com/html/trucking/img/pics/img01.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/1/11/Freightliner_M2_106_6x4_2014_%2814240376744%29.jpg"
                 alt=""
               />
             </a>
@@ -39,7 +39,7 @@ function Flota() {
             </div>
             <a href="/Flota/Semirremolque_de_flota" className="hiperImg">
               <img
-                src="http://pixel-industry.com/html/trucking/img/slider/slide01.jpg"
+                src="https://media.newyorker.com/photos/61a5800b07516aaf7967f1ee/master/pass/Monroe-OldTrucksNewMoney.jpg"
                 alt=""
               />
             </a>
@@ -50,7 +50,7 @@ function Flota() {
             </div>
             <a href="/Flota/Semirremolque_con_baranda" className="hiperImg">
               <img
-                src="http://pixel-industry.com/html/trucking/img/slider/slide03.jpg"
+                src="https://www.paccar.com/media/zolljmex/kw-t680-overlay.png"
                 alt=""
               />
             </a>
@@ -61,7 +61,7 @@ function Flota() {
             </div>
             <a href="/Flota/Arañas_portacontenedores" className="hiperImg">
               <img
-                src="http://pixel-industry.com/html/trucking/img/pics/img01.jpg"
+                src="https://th-thumbnailer.cdn-si-edu.com/EVjbxTwm8D0QgLSGAqditPQAxdE=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/1a/63/1a63b7a8-d27e-401c-827f-318424c6942e/truck.jpg"
                 alt=""
               />
             </a>
@@ -72,7 +72,7 @@ function Flota() {
             </div>
             <a href="/Flota/Carretones_especiales" className="hiperImg">
               <img
-                src="http://pixel-industry.com/html/trucking/img/slider/slide01.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/1/11/Freightliner_M2_106_6x4_2014_%2814240376744%29.jpg"
                 alt=""
               />
             </a>
@@ -83,7 +83,7 @@ function Flota() {
             </div>
             <a href="/Flota/Transporte_de_automoviles" className="hiperImg">
               <img
-                src="http://pixel-industry.com/html/trucking/img/slider/slide03.jpg"
+                src="https://media.newyorker.com/photos/61a5800b07516aaf7967f1ee/master/pass/Monroe-OldTrucksNewMoney.jpg"
                 alt=""
               />
             </a>

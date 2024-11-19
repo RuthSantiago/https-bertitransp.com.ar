@@ -18,32 +18,34 @@ const ArañasPortacontenedores = () => {
         <div className="titleSpecificFlota">
           <h1>ARAÑAS PORTA-CONTENEDORES</h1>
         </div>
-        <div className="backgroundDifuminadoFlota">
-          <div
-            className="blurryBackground"
-            style={{ backgroundImage: `url(${imagenSeleccionada})` }}
-          ></div>
-          <div className="imagenGralFlota">
-            <img src={imagenSeleccionada} alt="" />
+        <div className="containerFatherFlota">
+          <div className="backgroundDifuminadoFlota">
+            <div className="containerWithBackground">
+              <div
+                className="blurryBackground"
+                style={{ backgroundImage: `url(${imagenSeleccionada})` }}
+              ></div>
+              <div className="imagenGralFlota">
+                <img src={imagenSeleccionada} alt="" />
+              </div>
+            </div>
+            <div className="containerMiniImagesFlotaFather">
+              <ul className="containerMiniImagesFlota">
+                <li onClick={() => handleImagenClick(imagendeprueba)}>
+                  <img src={imagendeprueba} alt="" />
+                </li>
+                <li onClick={() => handleImagenClick(imagenGrande)}>
+                  <img src={imagenGrande} alt="" />
+                </li>
+                <li onClick={() => handleImagenClick(imagendeprueba)}>
+                  <img src={imagendeprueba} alt="" />
+                </li>
+                <li onClick={() => handleImagenClick(imagenGrande)}>
+                  <img src={imagenGrande} alt="" />
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="containerMiniImagesFlotaFather">
-            <ul className="containerMiniImagesFlota">
-              <li onClick={() => handleImagenClick(imagendeprueba)}>
-                <img src={imagendeprueba} alt="" />
-              </li>
-              <li onClick={() => handleImagenClick(imagenGrande)}>
-                <img src={imagenGrande} alt="" />
-              </li>
-              <li onClick={() => handleImagenClick(imagendeprueba)}>
-                <img src={imagendeprueba} alt="" />
-              </li>
-              <li onClick={() => handleImagenClick(imagenGrande)}>
-                <img src={imagenGrande} alt="" />
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div>
           <div className="descriptionProductFlota">
             <h2>Arañas Porta-contenedores</h2>
             <p>
